@@ -48,3 +48,22 @@ https://askubuntu.com/questions/1164/how-to-easily-resize-images
 sudo apt-get install nautilus-image-converter
 nautilus -q
 ~~~~
+
+# Installing Simple Screen Recorder
+
+If you are using Ubuntu 17.04 or newer, SimpleScreenRecorder can be found in the official repositories. You can install it with:
+~~~~
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+# if you want to record 32-bit OpenGL applications on a 64-bit system:
+sudo apt-get install simplescreenrecorder-lib:i386
+You should copy-paste these commands to a terminal line by line rather than all at once, otherwise it won't work.
+~~~~
+16.10 or older version, add ppa
+~~~~
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+# if you want to record 32-bit OpenGL applications on a 64-bit system:
+sudo apt-get install simplescreenrecorder-lib:i386
+~~~~
