@@ -4,6 +4,12 @@
 
 sudo apt-get install terminator
 
+# Gihub
+
+#Install Github
+
+sudo apt install git-all
+
 # Trackpad
 
 ~~~~
